@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f4f4f4"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.android.portfolio.MainActivity"
+        tools:showIn="@layout/activity_main">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="56dp"
+            android:gravity="center"
+            android:text="MY NANODEGREE APPS"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/App_1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignRight="@+id/textView"
+            android:layout_alignStart="@+id/textView"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="26dp"
+            android:background="#1f8fc1"
+            android:onClick="LaunchApp"
+            android:text="SPOTIFY STREAMER"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/App_2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignEnd="@+id/App_1"
+            android:layout_alignLeft="@+id/App_1"
+            android:layout_alignRight="@+id/App_1"
+            android:layout_alignStart="@+id/App_1"
+            android:layout_below="@+id/App_1"
+            android:layout_marginTop="26dp"
+            android:background="#1f8fc1"
+            android:onClick="LaunchApp"
+            android:text="SCORES APP"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/APP_3"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignEnd="@+id/App_2"
+            android:layout_alignLeft="@+id/App_2"
+            android:layout_alignRight="@+id/App_2"
+            android:layout_alignStart="@+id/App_2"
+            android:layout_below="@+id/App_2"
+            android:layout_marginTop="26dp"
+            android:background="#1f8fc1"
+            android:onClick="LaunchApp"
+            android:text="LIBRARY APP"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/APP_4"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignEnd="@+id/APP_3"
+            android:layout_alignLeft="@+id/APP_3"
+            android:layout_alignRight="@+id/APP_3"
+            android:layout_alignStart="@+id/APP_3"
+            android:layout_below="@+id/APP_3"
+            android:layout_marginTop="26dp"
+            android:background="#1f8fc1"
+            android:onClick="LaunchApp"
+            android:text="BUILD IT BIGGER"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/APP_5"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignEnd="@+id/APP_4"
+            android:layout_alignLeft="@+id/APP_4"
+            android:layout_alignRight="@+id/APP_4"
+            android:layout_alignStart="@+id/APP_4"
+            android:layout_below="@+id/APP_4"
+            android:layout_marginTop="26dp"
+            android:background="#1f8fc1"
+            android:onClick="LaunchApp"
+            android:text="XYZ READER"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/APP_6"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignEnd="@+id/APP_5"
+            android:layout_alignLeft="@+id/APP_5"
+            android:layout_alignRight="@+id/APP_5"
+            android:layout_alignStart="@+id/APP_5"
+            android:layout_below="@+id/APP_5"
+            android:layout_marginTop="26dp"
+            android:background="#c11f27"
+            android:onClick="LaunchApp"
+            android:text="CAPSTONE: MY OWN APP"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+</ScrollView>
+
